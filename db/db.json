@@ -1,0 +1,150 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Francês"
+      },
+      {
+        "id": 5,
+        "tipo": "Integral"
+      },
+      {
+        "id": 6,
+        "tipo": "Pão Mexicano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Frango"
+      },
+      {
+        "id": 5,
+        "tipo": "Veggie Burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 3,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 4,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 5,
+        "tipo": "Salame"
+      },
+      {
+        "id": 6,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 7,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 8,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Gecita",
+      "carne": "Veggie Burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Catupiry",
+        "Cheddar",
+        "Pepino"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Juarez ",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Calabresa"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Giovanna",
+      "carne": "Veggie Burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Cheddar",
+        "Tomate",
+        "Catupiry"
+      ],
+      "status": "Em produção",
+      "id": 3
+    },
+    {
+      "nome": "Alice",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Calabresa"
+      ],
+      "status": "Finalizado",
+      "id": 4
+    }
+  ]
+}
